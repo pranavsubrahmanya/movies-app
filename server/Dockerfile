@@ -13,6 +13,6 @@ RUN npm install -qy
 
 COPY . .
 
-CMD ["npm", "run", "dev"]
+CMD ["nodemon", "-L", "index.js"]
 
 EXPOSE 8000
